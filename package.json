@@ -1,0 +1,18 @@
+{
+  "name": "gitzip",
+  "version": "1.0.0",
+  "description": "GitZip — Turn long Git commands into one-word spells (Copilot-assisted workflow)",
+  "main": "index.js",
+  "bin": {
+    "gitzip": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "menu": "node index.js menu"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.10"
+  }
+}
