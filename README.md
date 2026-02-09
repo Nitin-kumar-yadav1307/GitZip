@@ -1,5 +1,10 @@
 # 🧙⚡ GitZip
 
+## 🏆 Built For
+
+GitHub Copilot CLI Challenge 2026  
+Designed to demonstrate Copilot-assisted workflows for real developer productivity.
+
 **Turn long Git commands into one-word spells with Copilot-assisted workflow**
 
 GitZip is a powerful CLI tool that transforms complex Git commands into simple, memorable shortcuts. Create, save, and execute Git "spells" in seconds. Perfect for developers who want to speed up their workflow and reduce cognitive load when working with Git.
@@ -28,10 +33,13 @@ GitZip is a powerful CLI tool that transforms complex Git commands into simple, 
 - Node.js (v12 or higher)
 - Git installed on your system
 
-### Via npm (Global Installation)
+### Global Usage (Local Linking)
 
 ```bash
-npm install -g gitzip
+git clone <your-repo-url>
+cd GitZip
+npm install
+npm link
 ```
 
 ### Local Development
@@ -40,7 +48,7 @@ npm install -g gitzip
 git clone <your-repo-url>
 cd GitZip
 npm install
-npm start
+node index.js
 ```
 
 ---
@@ -345,7 +353,8 @@ This project is open source and available under the MIT License.
 1. **Use with Copilot Chat**: Ask Copilot for complex Git commands, then save them as spells
 2. **Share Spells**: Copy your `shortcuts.json` to share with teammates
 3. **Documentation**: Use the `explain` command to document what each spell does
-4. **Version Control**: Keep `shortcuts.json` in your project repo for team consistency
+4. **Version Control**: Do NOT commit `shortcuts.json` for personal use.
+   Commit it only if your team intentionally shares spell definitions.
 5. **Regular Cleanup**: Periodically review and delete unused spells
 
 ---
@@ -371,15 +380,24 @@ A: Yes! GitZip works in any environment with Node.js and Git.
 
 ## 🚀 Get Started Now
 
+
+### With this:
+
+```md
+### Global Usage (Local Linking)
+
 ```bash
-# Install globally
-npm install -g gitzip
+git clone <your-repo-url>
+cd GitZip
+npm install
+npm link
 
-# Run the interactive menu
-gitzip menu
-
-# Or create your first spell
-gitzip create
 ```
 
 **Happy spell casting! 🧙⚡**
+
+---
+
+Made with ⚡ by Nitin  
+GitHub: https://github.com/Nitin-kumar-yadav1307
+
