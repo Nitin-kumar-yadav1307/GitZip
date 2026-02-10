@@ -10,6 +10,9 @@ Designed to demonstrate Copilot-assisted workflows for real developer productivi
 GitZip is a powerful CLI tool that transforms complex Git commands into simple, memorable shortcuts. Create, save, and execute Git "spells" in seconds. Perfect for developers who want to speed up their workflow and reduce cognitive load when working with Git.
 
 ---
+🎥 **Demo Video:**  
+[for demo video click here](https://drive.google.com/file/d/1gLayfnghgSHl3z6Chc-XuTbF9KIL1_mk/view?usp=sharing)
+
 
 ## ✨ Features
 
@@ -400,4 +403,5 @@ npm link
 
 Made with ⚡ by Nitin  
 GitHub: https://github.com/Nitin-kumar-yadav1307
+
 
